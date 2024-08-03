@@ -1,0 +1,51 @@
+/* PortfolioDetails.css */
+.container-view-portfolio {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  
+
+  
+  .view-portfolio__container {
+    margin-bottom: 40px;
+  }
+  
+  .view-portfolio__container > h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project__container-img {
+    margin-bottom: 20px;
+  }
+  
+  .project__container-img > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-portfolio__container > p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .container-view-portfolio {
+      padding: 15px;
+    }
+  
+    .view-portfolio__container h2 {
+      font-size: 20px;
+    }
+  
+    .view-portfolio__container p {
+      font-size: 14px;
+    }
+  }
+  
