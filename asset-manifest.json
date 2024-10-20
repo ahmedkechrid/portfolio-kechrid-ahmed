@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio-kechrid-ahmed/static/css/main.2a1a0b4c.css",
+    "main.js": "/portfolio-kechrid-ahmed/static/js/main.f2576aff.js",
+    "static/media/product-home.png": "/portfolio-kechrid-ahmed/static/media/product-home.e77697f337b3c0c5fc63.png",
+    "static/media/machins info.png": "/portfolio-kechrid-ahmed/static/media/machins info.95325dc130f395cfa14c.png",
+    "static/media/me.png": "/portfolio-kechrid-ahmed/static/media/me.d1a69cd84c3280578bc4.png",
+    "static/media/Cv.pdf": "/portfolio-kechrid-ahmed/static/media/Cv.3e07c668dca8098dab8e.pdf",
+    "static/media/next-tool.png": "/portfolio-kechrid-ahmed/static/media/next-tool.06cdb00935d2cc4f7cb6.png",
+    "static/media/User-managment-galaxy.jpg": "/portfolio-kechrid-ahmed/static/media/User-managment-galaxy.2cd00d7686e012bf350c.jpg",
+    "static/media/filtration.png": "/portfolio-kechrid-ahmed/static/media/filtration.488935a763ebffbaa240.png",
+    "static/media/portfolio-react-home.png": "/portfolio-kechrid-ahmed/static/media/portfolio-react-home.ac5d420ea0bf043a87df.png",
+    "static/media/product-managment-galaxy.jpg": "/portfolio-kechrid-ahmed/static/media/product-managment-galaxy.5577a4e8c4d76c5bcacb.jpg",
+    "static/media/Home2-galaxy.jpg": "/portfolio-kechrid-ahmed/static/media/Home2-galaxy.64b6c29db02f98e014de.jpg",
+    "static/media/Home-galaxy.jpg": "/portfolio-kechrid-ahmed/static/media/Home-galaxy.17c881d4bf249645c168.jpg",
+    "static/media/user-list.png": "/portfolio-kechrid-ahmed/static/media/user-list.ff6515a7b91dd1fc3a9f.png",
+    "static/media/slick.svg": "/portfolio-kechrid-ahmed/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio-kechrid-ahmed/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio-kechrid-ahmed/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio-kechrid-ahmed/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio-kechrid-ahmed/index.html",
+    "main.2a1a0b4c.css.map": "/portfolio-kechrid-ahmed/static/css/main.2a1a0b4c.css.map",
+    "main.f2576aff.js.map": "/portfolio-kechrid-ahmed/static/js/main.f2576aff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a1a0b4c.css",
+    "static/js/main.f2576aff.js"
+  ]
+}
