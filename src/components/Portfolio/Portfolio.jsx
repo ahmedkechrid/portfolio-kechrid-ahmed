@@ -2,6 +2,8 @@ import React from 'react';
 import "./Portfolio.css";
 import { Link } from 'react-router-dom';
 import ImgProject1 from '../../assests/portfolio-react-home.png'
+import HomeGalaxy from '../../assests/Home-galaxy.jpg'
+
 
 const Portfolio = () => {
   return (
@@ -21,22 +23,12 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={ImgProject1} alt=''/>
+            <img src={HomeGalaxy} alt=''/>
           </div>
           <h3>e-commerce website</h3>
           <small className='text-light'>click View More to see details About Most Important Interfaces</small>
           <div className="portfolio__item-cta">
-          <Link to='#' className='btn'> View More</Link>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ImgProject1} alt=''/>
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <small className='text-light'>click View More to see details About Most Important Interfaces</small>
-          <div className="portfolio__item-cta">
-          <Link to='#' className='btn'> View More</Link>
+          <Link to='/details2' className='btn'> View More</Link>
           </div>
         </article>
       </div>

@@ -38,22 +38,57 @@ header{
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 22rem;
-    position: absolute;
-    left: calc(50% - 11rem);
+    position: relative; /* Changed from absolute to relative */
+    left: calc(50% - 11rem); /* Center horizontally */
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0  ; 
+    border-radius: 50%; /* Makes the container circular */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* The image inside the circle */
 .me img {
     width: 100%;
     height: 100%;
-    margin-right: 55px;
     object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    z-index: 1; /* Ensures the image is above the ring */
 }
+
+/* Glowing ring animation */
+.me::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%; /* Larger than container to create distance */
+    height: 150%; /* Larger than container to create distance */
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1), transparent);
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.6); /* Initial glow */
+    transform: translate(-50%, -50%);
+    animation: ringPulse 2s infinite ease-in-out; /* Apply animation */
+    z-index: 0; /* Ensure it’s behind the image */
+}
+
+/* Keyframes for glowing ring effect */
+@keyframes ringPulse {
+    0% {
+        box-shadow: 0 0 15px rgba(0, 0, 255, 0.6); /* Initial glow */
+        transform: translate(-50%, -50%) scale(1); /* Initial size */
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(0, 0, 255, 0.8); /* Larger glow */
+        transform: translate(-50%, -50%) scale(1.2); /* Enlarge */
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(0, 0, 255, 0.6); /* Glow returns to initial state */
+        transform: translate(-50%, -50%) scale(1); /* Original size */
+    }
+}
+
+
 /*======================== SCROLL DOWN ==================*/
 .scroll__down{
     position: absolute;

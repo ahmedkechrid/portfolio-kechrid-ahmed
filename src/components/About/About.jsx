@@ -20,23 +20,25 @@ const About = () => {
             <article className='about-card'>
               <FaAward className='about__icon'/>
               <h5>Experiance</h5>
-              <small>3+ Years Working</small>
+              <small>1+ Years Working</small>
             </article>
             <article className='about-card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>5+ Worldwide</small>
+              <small>2+ In Tunisia</small>
             </article>
             <article className='about-card'>
               <PiFolderStar className='about__icon'/>
               <h5>Projects </h5>
-              <small>4+ Completed</small>
+              <small>2+ Completed</small>
             </article>
           </div>
           <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nam exercitationem libero repellendus
-             itaque nisi amet ad vel quas natus illum, corrupti eos, dolore id in accusantium? Praesentium,
-            veritatis reprehenderit.
+          As a dynamic data science candidate,
+           I have a strong foundation in problem-solving and technical expertise.
+            My goal is to continuously develop my practical skills in data science and software development,
+             while making meaningful contributions to innovative projects.
+           I am driven by a passion for exploring new challenges and advancing my knowledge in the field.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
          </div>

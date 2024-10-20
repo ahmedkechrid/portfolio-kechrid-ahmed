@@ -9,12 +9,15 @@ import Portfolio from './components/Portfolio/Portfolio.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import PortfolioDetails from './components/Portfolio/PortfolioDetails.jsx';
+import PortfolioDetails2 from './components/Portfolio/PortfolioDetails2.jsx'
 
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/details" element={<PortfolioDetails />} />
+        <Route path="/details2" element={<PortfolioDetails2 />} />
+
 
         <Route path="/" element={
           <>
